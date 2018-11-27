@@ -1,0 +1,7 @@
+{
+    "name": "ucfopen/materia-theme-ucf",
+    "description": "UCF custom theme for Materia Server",
+    "type": "fuel-package",
+    "license": "AGPL-3.0-only",
+    "require": {}
+}
