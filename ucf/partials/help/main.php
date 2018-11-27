@@ -3,7 +3,7 @@
 		<h1>Help &amp; Support</h1>
 		<section class="bordered">
 			<h2 id="getting-started-link">Getting Started</h2>
-			<p>Check out the <a href="http://online.ucf.edu/support/materia/materia-quick-start-guide/" class="external">Materia Quickstart Guide</a>.</p>
+			<p>Check out the <a href="https://cdl.ucf.edu/support/materia/materia-quick-start-guide/" class="external">Materia Quickstart Guide</a>.</p>
 		</section>
 
 		<section class="bordered">
@@ -33,7 +33,7 @@
 		<section class="float right bordered">
 			<h2 id="faq-link">FAQs</h2>
 			<p>The Webcourses@UCF Support website provides a fequently asked questions section for help with Materia.</p>
-			<p><a href="http://online.ucf.edu/support/materia/" class="external">View the FAQs</a></p>
+			<p><a href="https://cdl.ucf.edu/support/materia/" class="external">View the FAQs</a></p>
 		</section>
 
 		<section class="float right">
@@ -41,7 +41,7 @@
 			<p>If you need help beyond what has been provided here, please contact Webcourses@UCF Support using one of the following:</p>
 			<dl>
 				<dt>Webcourses@UCF Support</dt>
-					<dd><a href="http://online.ucf.edu/support/">http://online.ucf.edu/support/</a></dd>
+					<dd><a href="https://cdl.ucf.edu/support/">https://cdl.ucf.edu/support/</a></dd>
 				<dt>Email</dt>
 					<dd><a href="mailto:webcourses@ucf.edu">webcourses@ucf.edu</a></dd>
 				<dt>Phone</dt>
