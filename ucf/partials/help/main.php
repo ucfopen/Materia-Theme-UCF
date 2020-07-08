@@ -1,4 +1,4 @@
-<div class="container" ng-controller="helpCtrl">
+<div class="container" ng-controller="HelpCtrl">
 	<section class="page">
 		<h1>Help &amp; Support</h1>
 		<section class="bordered">
@@ -8,14 +8,7 @@
 
 		<section class="bordered">
 			<h2 id="flash-required">Requirements</h2>
-			<p class="flash-version">Materia requires that you have the latest Flash Player plug-in installed.</p>
-			<div ng-if='hasFlash'>
-				<p class="flash_installed">Sweet! We've detected you have Flash installed. You should be good to go.</p>
-			</div>
-			<div ng-if='!hasFlash' class="no_flash" >
-				<p><strong>Oh no!</strong> Looks like you don't have the latest version of Flash installed.</p>
-				<a class="get_flash" href="http://www.adobe.com/go/getflashplayer">Get the latest Adobe Flash &reg; Player</a>
-			</div>
+			<p class="flash-version">Materia requires that you use an up-to-date browser with javascript and cookies enabled.</p>
 		</section>
 
 		<section class="float left">
@@ -45,7 +38,7 @@
 				<dt>Email</dt>
 					<dd><a href="mailto:webcourses@ucf.edu">webcourses@ucf.edu</a></dd>
 				<dt>Phone</dt>
-					<dd>(407) 823-0407</dd>
+					<dd><a href="tel:+14078230407">(407) 823-0407</a></dd>
 			</dl>
 		</section>
 	</section>
