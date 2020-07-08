@@ -1,4 +1,4 @@
-<div class="container" ng-controller="HelpCtrl">
+<div class="container">
 	<section class="page">
 		<h1>Help &amp; Support</h1>
 		<section class="bordered">
