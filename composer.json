@@ -3,12 +3,5 @@
     "description": "UCF custom theme for Materia Server",
     "type": "fuel-package",
     "license": "AGPL-3.0-only",
-    "require": {},
-    "scripts": {
-        "pre-update-cmd":"echo 'pre-update-cmd'",
-        "pre-package-install":"echo 'pre-package-install'",
-        "pre-package-update":"echo 'pre-package-update'",
-        "post-package-install": "echo 'post-package-install'",
-        "post-package-update": "echo 'post-package-update'"
-    }
+    "require": {}
 }
