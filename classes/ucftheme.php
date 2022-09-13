@@ -11,4 +11,12 @@ class UcfTheme
 			'js' => 'saml-login'
 		];
 	}
+
+	public static function help_page_redirect()
+	{
+		return [
+			'css' => 'support',
+			'js' => 'ucf-help'
+		];
+	}
 }
