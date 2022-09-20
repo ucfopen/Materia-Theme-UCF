@@ -15,7 +15,7 @@ class UcfTheme
 	public static function help_page_redirect()
 	{
 		return [
-			'css' => 'support',
+			'css' => 'help',
 			'js' => 'ucf-help'
 		];
 	}
