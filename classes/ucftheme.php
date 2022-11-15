@@ -19,4 +19,12 @@ class UcfTheme
 			'js' => 'ucf-help'
 		];
 	}
+
+	public static function embedded_only_redirect()
+	{
+		return [
+			'css' => 'login',
+			'js' => 'embedded-only'
+		];
+	}
 }
