@@ -77,10 +77,9 @@ const SamlLoginPage = () => {
 					<div id="form">
 						{ state.errContent }
 						{ state.noticeContent }
-						<form method="post" action={`${state.actionLogin}?redirect=${state.actionRedirect}`} className='form-content'>
 							<ul>
 								<li className="submit_button">
-									<button type="submit" tabIndex="3" className="action_button">Login</button>
+									<a className="action_button" tabIndex="3" href={`${state.actionLogin}?redirect=${state.actionRedirect}`}>Login</a>
 								</li>
 							</ul>
 							{ state.bypass ?  
@@ -89,7 +88,6 @@ const SamlLoginPage = () => {
 											<li><a href="/help">Help</a></li>
 										</ul>
 									: '' }
-						</form>
 					</div>
 				</section>
 			</div>
