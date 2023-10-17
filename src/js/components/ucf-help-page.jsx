@@ -4,7 +4,6 @@ import Header from '../../../../../../src/components/header'
 import UcfHelpHome from './ucf-help-home'
 import UcfHelpForStudents from './ucf-help-for-students'
 import UcfHelpForInstructors from './ucf-help-for-instructors'
-import './help-page.scss';
 
 const HelpPage = () => {
 

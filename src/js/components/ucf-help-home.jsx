@@ -20,10 +20,10 @@ const UcfHelpHome = () => {
 				<p>In many cases, problems logging in are a result of one of the following:</p>
 				<h3>Expired Password</h3>
 				<p>NID passwords expire every 30 days for security purposes. You may need to <a href="http://mynid.ucf.edu" className="external">reset your NID password</a> if it has expired.</p>
-				<h3>Students missing UCF E-Mail address</h3>
-				<p>Students must have a UCF Email address to log into Materia. You should be able to access Materia within 24 hours of receiving a UCF email address.</p>
+				<h3>Students Missing UCF Email Address</h3>
+				<p>Students must have a UCF email address to log into Materia. You should be able to access Materia within 24 hours of receiving a UCF email address.</p>
 				<p>Faculty members are similarly required to have a UCF email address in order to authenticate with Materia.</p>
-				<h3>Faculty not currently employed</h3>
+				<h3>Faculty Not Currently Employed</h3>
 				<p>Faculty must be categorized as currently employed to gain access.</p>
 			</section>
 
