@@ -79,15 +79,15 @@ const SamlLoginPage = () => {
 						{ state.noticeContent }
 							<ul>
 								<li className="submit_button">
-									<a className="action_button" tabIndex="3" href={`${state.actionLogin}?redirect=${state.actionRedirect}`}>Login</a>
+									<a className="action_button" tabIndex="3" href={`${state.actionLogin}?redirect=${state.actionRedirect}`} target="_blank">Login</a>
 								</li>
 							</ul>
-							{ state.bypass ?  
-										<ul className="help_links">
-											{ state.loginLinks }
-											<li><a href="/help">Help</a></li>
-										</ul>
-									: '' }
+							{ state.bypass ?
+								<ul className="help_links">
+									{ state.loginLinks }
+									<li><a href="/help">Help</a></li>
+								</ul>
+							: '' }
 					</div>
 				</section>
 			</div>
