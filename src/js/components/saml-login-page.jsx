@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Header from '../../../../../../src/components/header'
 import Summary from '../../../../../../src/components/widget-summary'
+import EmbedFooter from '../../../../../../src/components/widget-embed-footer'
 import '../../../../../../src/components/login-page.scss' // referencing src/components from fuel/packages/materia-theme-ucf/src/js
 
 const SamlLoginPage = () => {
@@ -89,6 +90,7 @@ const SamlLoginPage = () => {
 								</ul>
 							: '' }
 					</div>
+					{ state.context && state.context == 'widget' ? <EmbedFooter /> : ''}
 				</section>
 			</div>
 		</>
