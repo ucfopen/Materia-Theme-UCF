@@ -4,13 +4,14 @@ import Header from '../../../../../../src/components/header'
 import UcfHelpHome from './ucf-help-home'
 import UcfHelpForStudents from './ucf-help-for-students'
 import UcfHelpForInstructors from './ucf-help-for-instructors'
+import UcfHelpAccessibility from './ucf-help-accessibility'
 
 const HelpPage = () => {
 
-	const [page, setPage] = useState(window.location.hash.match(/#(home|students|instructors){1}$/)?.[1])
+	const [page, setPage] = useState(window.location.hash.match(/#(home|students|instructors|accessibility){1}$/)?.[1])
 
 	const listenToHashChange = () => {
-		const match = window.location.hash.match(/#(home|students|instructors){1}$/)
+		const match = window.location.hash.match(/#(home|students|instructors|accessibility){1}$/)
 		if (match != null && match[1] != null) setPage(match[1])
 		else setPage('home')
 	}
@@ -31,6 +32,9 @@ const HelpPage = () => {
 		case 'instructors':
 			helpContentRender = <UcfHelpForInstructors />
 			break
+		case 'accessibility':
+			helpContentRender = <UcfHelpAccessibility />
+			break
 		default:
 			helpContentRender = <UcfHelpHome />
 	}
@@ -47,6 +51,7 @@ const HelpPage = () => {
 								<li><a href='#home'>Help Home</a></li>
 								<li><a href='#students'>For Students</a></li>
 								<li><a href='#instructors'>For Instructors</a></li>
+								<li><a href='#accessibility'>Accessibility</a></li>
 							</ul>
 						</nav>
 						<main>
