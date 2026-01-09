@@ -1,5 +1,8 @@
 # Materia Theme for UCF
 
+> [!IMPORTANT]
+> Note: With Materia v11.0.0 and the transition to python and django, this repository is no longer in in use.
+
 This repository contains the customized theme for the Materia server at UCF.
 
 Visit the [Materia Documentation](https://ucfopen.github.io/Materia-Docs) for more information.
